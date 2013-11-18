@@ -27,17 +27,92 @@
 
 <p>I'm a programmer, cs researcher &amp; data geek from GWU, Washington, DC. My interest varies from deep web data mining, graph sampling to full stack web development. I spend my evenings building things I loved.</p>
 
+<hr><h1>
+<a name="tech-savvy-and-my-projects" class="anchor" href="#tech-savvy-and-my-projects"><span class="octicon octicon-link"></span></a>Tech savvy and my projects</h1>
+
+<h3>
+<a name="hast-live-markdown-presentation-httphastme--source" class="anchor" href="#hast-live-markdown-presentation-httphastme--source"><span class="octicon octicon-link"></span></a>Hast: Live markdown presentation <a href="http://hast.me">http://hast.me</a> | <a href="https://github.com/zhouzhuojie/hast">source</a>
+</h3>
+
+<p>Live presentation is never done easier before. Hast is a WYSIWYG markdown flavor presentation tool made for everyone! We love markdown, did I mention it? It uses github style markdown. It quickly does the real time broadcasting and hot pushing changes. Hast uses Meteor, DeckJS, aceEditor, etc. I just love how simple it is.</p>
+
+<p>An example of my recent report: <a href="http://www.hast.me/hast/KWcAQ9AL4EEMb3wqR">http://www.hast.me/hast/KWcAQ9AL4EEMb3wqR</a></p>
+
+<h3>
+<a name="pycode-open-source-online-judge-for-python-httppycodeme" class="anchor" href="#pycode-open-source-online-judge-for-python-httppycodeme"><span class="octicon octicon-link"></span></a>Pycode: Open source online judge for Python <a href="http://pycode.me">http://pycode.me</a>
+</h3>
+
+<p>PyCode is a sleek, intuitive python problem solver right in your browser. JSREPL combined with jqconsole is so powerful that we can put the core Python 2.7 just inside the browser compiled by assembled javascript. Also, it is interesting to prepare the interview puzzles and share the test cases with others on my own site at the same time.</p>
+
 <h3>
 <a name="dm_greader-data-mining-on-google-reader-source" class="anchor" href="#dm_greader-data-mining-on-google-reader-source"><span class="octicon octicon-link"></span></a>DM_GReader: Data mining on Google Reader <a href="https://github.com/zhouzhuojie/DM_GReader">source</a>
 </h3>
 
-<p>Once upon a time, there was an awesome place for people to kill their time: Google Reader. Though it suddenly died without notice, I still missed those days with 1000+ feeds coming everyday. Inspired by summerly, I tried to use K-MEANS and Cover-Tree to generate the most representative samples out of the 1000+ feeds per day to give myself of short list to read. I am now trying to migrate to Feedly if possible.</p>
+<p>Once upon a time, there was an awesome place for people to kill their time: Google Reader. Though it suddenly died without notice, I still missed those days with 1000+ feeds coming everyday. Inspired by summerly, I tried to implement K-MEANS and Cover-Tree in Python to generate the most representative samples out of the 1000+ feeds per day to give myself of short list to read. I am now trying to migrate to Feedly if possible.</p>
 
 <h3>
-<a name="hast-live-markdown-presentation-website-source" class="anchor" href="#hast-live-markdown-presentation-website-source"><span class="octicon octicon-link"></span></a>Hast: Live markdown presentation <a href="http://hast.me">website</a> <a href="https://github.com/zhouzhuojie/hast">source</a>
+<a name="meteor-knockout-client-source" class="anchor" href="#meteor-knockout-client-source"><span class="octicon octicon-link"></span></a>Meteor-knockout-client <a href="https://github.com/zhouzhuojie/knockout-client">source</a>
 </h3>
 
-<p>Live presentation is never done easier before. Hast is a WYSIWYG markdown flavor presentation tool made for everyone! We love markdown, did I mention it? It uses github style markdown. It quickly does the real time broadcasting and hot pushing changes. Hast uses Meteor, DeckJS, aceEditor, etc. I just love how simple it is.</p>
+<p>Knockout is a JavaScript MVVM (a modern variant of MVC) library that makes it easier to create rich, desktop-like user interfaces with JavaScript and HTML. It uses observers to make your UI automatically stay in sync with an underlying data model, along with a powerful and extensible set of declarative bindings to enable productive development.</p>
+
+<p>Meteor makes it an order of magnitude simpler and a lot more fun to build webapps. However, we still want to have a MV* frontend framework in Meteor. Handlebar uses '{{}}', which is conflict with frameworks like AngularJs and EmberJs. So 'data-bind' like frameworks (e.g. Knockout) play nicely with Meteor.</p>
+
+<p>This is a complete knockoutjs integration with Meteor with extensive <a href="https://github.com/zhouzhuojie/knockout-client#knockout-client">guide and documentation</a>.</p>
+
+<h3>
+<a name="knockout-client-pager-source" class="anchor" href="#knockout-client-pager-source"><span class="octicon octicon-link"></span></a>Knockout-client-pager <a href="https://github.com/zhouzhuojie/knockout-client-pager">source</a>
+</h3>
+
+<p>Pager.js is a JavaScript library based on KnockoutJS and jQuery that provides the possibility of creating single page applications in a declarative fashion - nesting subpages inside subpages where each subpage can be developed standalone but still communicate between each other. In Meteor, isn't it nicer to have a DOM-binding level routing framework?</p>
+
+<pre><code>&lt;template name="foo"&gt;
+    &lt;div data-bind="page: {id: 'deep_navigation'}"&gt;
+        &lt;div data-bind="page: {id: 'start'}"&gt;
+            &lt;a data-bind="page-href: 'second' "&gt;Show the second page&lt;/a&gt;.
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/template&gt;
+</code></pre>
+
+<h3>
+<a name="meteor-reactive-coffee-source" class="anchor" href="#meteor-reactive-coffee-source"><span class="octicon octicon-link"></span></a>Meteor-reactive-coffee <a href="https://github.com/zhouzhuojie/meteor-reactive-coffee">source</a>
+</h3>
+
+<p>Reactive-coffee is a Coffeescript reactive library that makes it easier to create rich, reusable web components. It automate almost everything in reactive web app. I love the fact that Reactive-coffee offers this powerful reactive programming paradigm that play well with Meteor, you don't even need to write a html template. I also have a <a href="http://reactive-coffee-demo.meteor.com/">demo</a> to show how easy to create TODO-MVC app using meteor-reactive-coffee.</p>
+
+<h3>
+<a name="meteor-nprogress-source" class="anchor" href="#meteor-nprogress-source"><span class="octicon octicon-link"></span></a>Meteor-nprogress <a href="https://github.com/zhouzhuojie/meteor-nprogress">source</a>
+</h3>
+
+<p>A thin wrapper for the awesome nprogress.js.</p>
+
+<h3>
+<a name="meteor-state-machine-source" class="anchor" href="#meteor-state-machine-source"><span class="octicon octicon-link"></span></a>Meteor-state-machine <a href="https://github.com/zhouzhuojie/meteor-state-machine">source</a>
+</h3>
+
+<p>A thin wrapper for the javascript-state-machine library.</p>
+
+<hr><h1>
+<a name="startup-kids" class="anchor" href="#startup-kids"><span class="octicon octicon-link"></span></a>Startup kids</h1>
+
+<p><em>WiseAgg</em> - Champion of GW Business Plan Competition. My advisor and I built a realtime marketing analysis engine that won the first place in a $25,000 bizplan competition. Some media coverage:</p>
+
+<ul>
+<li><a href="http://blogs.gwhatchet.com/newsroom/tag/wiseagg/">gwhatchet.com</a></li>
+<li><a href="http://gwbizplan.com/wiseagg_wins_250_000_sic_at_gwu_business_plan_competition">gwbizplan.com</a></li>
+<li><a href="http://www.youtube.com/watch?v=Nyn8s7LPZUg">youtube</a></li>
+</ul><hr><h1>
+<a name="religious" class="anchor" href="#religious"><span class="octicon octicon-link"></span></a>Religious</h1>
+
+<p>Vim only, Emacs free (borrowed from Slava Kim). I also love the combination of tmux. See my ultimate one-stop <a href="https://github.com/zhouzhuojie/Nitrous.Dotfiles">dotfiles</a>. You will love the setup for Python and Javascript.</p>
+
+<hr><h1>
+<a name="seriously" class="anchor" href="#seriously"><span class="octicon octicon-link"></span></a>Seriously</h1>
+
+<p>One of my research is graph sampling, basically it improve how we retrieve data from online social networks. I love the idea and enjoy the time harvesting data from major online social networks like Twitter and Google+.</p>
+
+<p>Zhuojie Zhou, Nan Zhang, Zhiguo Gong, and Gautam Das, <em>Faster Random Walks By Rewiring Online Social Networks On-The-Fly</em>, Proceedings of the IEEE International Conference on Data Engineering (ICDE), 2013.</p>
       </section>
       <footer>
         <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
