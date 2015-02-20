@@ -1,0 +1,177 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ecf0f1;
+    font:14px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 300;
+}
+
+.section-title {
+    font: 1.5em;
+    padding-left: 16px;
+    color: rgb(61, 79, 93);
+    width: 91%;
+}
+
+.section-title h1 {
+    padding-left: 2px;
+}
+
+h1 {
+    color: #2980b9;
+}
+
+a {
+    text-decoration: none;
+    color: #9b59b6;
+    word-wrap: break-word;
+}
+
+a:hover,
+a:focus {
+    text-decoration: underline;
+}
+
+h3 {
+    font-weight: 100;
+}
+
+/* LAYOUT CSS */
+.pure-img-responsive {
+    max-width: 100%;
+    height: auto;
+}
+
+#layout {
+    padding: 0;
+}
+
+.header {
+    text-align: center;
+    top: auto;
+    margin: 3em auto;
+}
+
+.sidebar {
+    background: rgb(61, 79, 93);
+    color: #fff;
+}
+
+.brand-title,
+.brand-tagline {
+    margin: 0;
+}
+.brand-title {
+    text-transform: uppercase;
+    color: white;
+}
+.brand-tagline {
+    font-weight: 300;
+    color: rgb(176, 202, 219);
+}
+
+.nav-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.nav-item {
+    display: inline-block;
+    *display: inline;
+    zoom: 1;
+}
+.nav-item a {
+    background: transparent;
+    border: 2px solid rgb(176, 202, 219);
+    color: #fff;
+    margin-top: 1em;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    font-size: 85%;
+}
+.nav-item a:hover,
+.nav-item a:focus {
+    border: 2px solid rgb(61, 146, 201);
+    text-decoration: none;
+}
+
+.content-subhead {
+    text-transform: uppercase;
+    color: #aaa;
+    border-bottom: 1px solid #eee;
+    padding: 0.4em 0;
+    font-size: 80%;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+}
+
+.content {
+    padding: 2em 1em 0;
+}
+
+.post {
+    padding-bottom: 2em;
+}
+
+.post-title {
+    font-size: 1.5em;
+    color: rgb(61, 79, 93);
+    margin-bottom: 0.2em;
+}
+
+.post-description {
+    font-family: Georgia, "Cambria", serif;
+    color: #444;
+    line-height: 1.8em;
+}
+.post-meta {
+    color: #999;
+    font-size: 90%;
+    margin: 0;
+}
+
+.card {
+  padding:1rem;
+  box-shadow:0 1px 2px #aaa;
+  background: white;
+  margin:0 1rem 1rem;
+  border-radius:3px;
+  user-select:none;
+  transform-origin:top left;
+  overflow-x: hidden;
+  width: 46%;
+}
+
+@media (min-width: 48em) {
+    .content {
+        padding: 3em 0 0 4em;
+        margin-left: 25%;
+    }
+
+    .header {
+        margin: 80% 2em 0;
+        text-align: right;
+    }
+
+    .sidebar {
+        position: fixed;
+        top: 0;
+        bottom: 0;
+    }
+}
+
+@media (max-width: 1200px) {
+    .card {
+        width: 40%;
+    }
+}
+
+@media (max-width: 800px) {
+    .card {
+        width: 95%;
+    }
+}
