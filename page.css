@@ -175,3 +175,15 @@ h3 {
         width: 95%;
     }
 }
+
+.circular {
+    width: 128px;
+    height: 128px;
+    border-radius: 64px;
+    -webkit-border-radius: 64px;
+    -moz-border-radius: 64px;
+    background: url(./images/zhuojie.jpg) no-repeat;
+    box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+    -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+    -moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+    }
