@@ -1,0 +1,60 @@
+==================================================================                                                                  
+https://keybase.io/zhuojie                                                                                                          
+--------------------------------------------------------------------                                                                
+                                                                                                                                    
+I hereby claim:                                                                                                                     
+                                                                                                                                    
+  * I am an admin of https://www.zzj.im                                                                                             
+  * I am zhuojie (https://keybase.io/zhuojie) on keybase.                                                                           
+  * I have a public key ASAw_jNmQvoexSWG3k5Y5lGSB67bp3YZ0XG9ohrULQgwNgo                                                             
+                                                                                                                                    
+To do so, I am signing this object:                                                                                                 
+                                                                                                                                    
+{                                                                                                                                   
+  "body": {                                                                                                                         
+    "key": {                                                                                                                        
+      "eldest_kid": "010142d02c6cc0dab6cc7d94017424dafb2bd79cf174bfa1fa67fc843a5d5c9649a30a",                                       
+      "host": "keybase.io",                                                                                                         
+      "kid": "012030fe336642fa1ec52586de4e58e6519207aedba77619d171bda21ad42d0830360a",                                              
+      "uid": "1732070dde97bc9486bd3109100c2919",                                                                                    
+      "username": "zhuojie"
+    },
+    "merkle_root": {
+      "ctime": 1534716204,
+      "hash": "185dda48e2db1835f32a7d6944b1b6a95181f850811368e66b7304a647e4fbf9cd327b4463ea6f16b9d2a1dd1c8320e603812eb464101b62f6a4$
+ac89adedc34",
+      "hash_meta": "7be5c0e475b6388e4036f69345943b50aea85f1f5fb84f705a84965916ab3536",
+      "seqno": 3481000
+    },
+    "service": {
+      "entropy": "HdEods84CCyvtSA0mZburRfk",
+      "hostname": "www.zzj.im",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "2.6.0"
+  },
+  "ctime": 1534716222,
+  "expire_in": 504576000,
+  "prev": "c45d69f3e3801eafb4a41c624a91ac65b902ba3c65f439e3afbcea3431535151",
+  "seqno": 16,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgMP4zZkL6HsUlht5OWOZRkgeu26d2GdFxvaIa1C0IMDYKp3BheWxvYWTESpcCEMQgxF1p8+OAHq+0pBxiSpGs
+ZbkCujxl9Dnjr7zqNDFTUVHEINWOvP0PbgSK1+l4duhtKzXmyUXhn1n+d4o4S2FOp+9nAgHCo3NpZ8RAw4plSHMkAlKSvn2LiF1kjqTPzvrqFzfUv88PT7HJThlCo+wkCbOK
+AqEBv/MDFc5FBVtLOZck8+6Q3WR8ZYyuCqhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIDqZjEnhHH0KPXerGZ08GDWkBuyK7YubcaIuNHAsZKToo3RhZ80CAqd2ZXJz
+aW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/zhuojie
+
+==================================================================
