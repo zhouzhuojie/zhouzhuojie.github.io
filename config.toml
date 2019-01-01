@@ -1,0 +1,13 @@
+baseurl = "/"
+languageCode = "en-us"
+title = "Zhuojie Zhou"
+theme = "XMin"
+googleAnalytics = ""
+disqusShortname = ""
+ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
+preserveTaxonomyNames = true
+footnotereturnlinkcontents = "↩"
+
+[params]
+    description = "Zhuojie Zhou"
+    footer = "&copy; Zhuojie Zhou | [Github](https://github.com/zhouzhuojie) | [Twitter](https://twitter.com/zhouzhuojie) | [LinkedIn](https://www.linkedin.com/in/zhouzhuojie/)"
