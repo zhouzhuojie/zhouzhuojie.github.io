@@ -4,6 +4,8 @@ title: 'Home'
 
 # Zhuojie Zhou
 
+[Github](https://github.com/zhouzhuojie) | [Twitter](https://twitter.com/zhouzhuojie) | [LinkedIn](https://www.linkedin.com/in/zhouzhuojie/)
+
 Creator of Flagr and OpenMock. Contributed to Kong. Graph theory and graph sampling disruptor. k8s, cloud native evangelist. Gopher learning Rust. Welcome!
 
 ## Open Source
@@ -19,7 +21,7 @@ Mock all the services. Intuitive YAML DSL for HTTP, Kafka, and AMQP mocks.
 <br><iframe src="https://ghbtns.com/github-btn.html?user=zhouzhuojie&repo=meteor-vue&type=star&count=true" frameborder="0" scrolling="0" width="170px" height="20px"></iframe>
 - Random stuff at https://github.com/zhouzhuojie
 
-## Academic Research
+## Research
 
 My previous research was focusing on faster graph sampling and web data mining.
 
