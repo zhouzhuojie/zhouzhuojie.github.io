@@ -6,7 +6,7 @@ title: 'Home'
 
 [Github](https://github.com/zhouzhuojie) | [Twitter](https://twitter.com/zhouzhuojie) | [LinkedIn](https://www.linkedin.com/in/zhouzhuojie/)
 
-Creator of Flagr and OpenMock. Contributed to Kong. Graph theory and graph sampling disruptor. k8s, cloud native evangelist. Gopher learning Rust. Welcome!
+Creator of Flagr and OpenMock. Ph.D. in Graph theory and graph sampling. Kong contributor. k8s and cloud native evangelist. Gopher learning Rust. Welcome!
 
 ## Open Source
 
