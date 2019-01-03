@@ -5,5 +5,5 @@
 [[redirects]]
   from = "/oscon_demo_video"
   to = "https://www.youtube.com/watch?v=1GTLnycq-to"
-  status = 200
-  force = true
+  status = 301
+  force = false
