@@ -6,7 +6,7 @@ title: 'Home'
 
 [Github](https://github.com/zhouzhuojie) | [Twitter](https://twitter.com/zhouzhuojie) | [LinkedIn](https://www.linkedin.com/in/zhouzhuojie/)
 
-Creator of Flagr, OpenMock, and DSRHub. Ph.D. in Graph theory and graph sampling. API Gateway Kong community champions and open-source contributor. k8s and cloud native evangelist. Welcome!
+Creator of Flagr, OpenMock, and DSRHub. Ph.D. in Graph theory and graph sampling. API Gateway Kong community champions and open-source contributor. k8s and cloud native evangelist. Gopher at Checkr, ex-Uber. 
 
 ## Open Source
 
