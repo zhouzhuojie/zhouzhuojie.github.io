@@ -1,15 +1,3 @@
 [build]
   publish = "public"
   command = "hugo"
-
-[[redirects]]
-  from = "/oscon_demo_video"
-  to = "https://www.youtube.com/watch?v=1GTLnycq-to"
-  status = 301
-  force = false
-  
-[[redirects]]
-  from = "/strata_demo_video"
-  to = "https://youtu.be/lgglyy6lWpU"
-  status = 301
-  force = false
